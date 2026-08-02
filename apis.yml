@@ -1,7 +1,30 @@
 aid: tagged
 name: Tagged
-description: Tagged is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tagged is a social discovery and dating platform founded in 2004 and based in
+  San Francisco, where members browse profiles of people nearby or worldwide,
+  chat, play social games, exchange tags and virtual gifts, and make new
+  connections. Originally a standalone social network backed by early investors
+  including Uncork Capital (formerly SoftTech VC), Tagged was acquired by MeetMe
+  in 2017 for roughly 60 million dollars and today operates as a consumer brand
+  within The Meet Group (part of the ParshipMeet Group) alongside apps such as
+  MeetMe, Skout, and LOVOO. The current tagged.com is a consumer-facing web and
+  mobile social-dating experience with no public developer program or API; a
+  legacy REST-style API (tagged.com/api.php) that once powered third-party
+  integrations has been retired. This profile is maintained in the API
+  Evangelist network as a company record rather than an API producer.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.tagged.com/wp-content/plugins/parship-seo/assets/img/rich_snippet_logo_tagged.webp
 url: https://raw.githubusercontent.com/api-evangelist/tagged/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Social Network
+- Social Discovery
+- Online Dating
+- Consumer
+- Messaging
+- Mobile App
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tagged-domain-security.yml
+- type: Website
+  url: https://www.tagged.com/
+- type: About
+  url: https://www.tagged.com/en/aboutus/
+- type: Login
+  url: https://www.tagged.com/login
+- type: Support
+  url: https://support.tagged.com/hc/en-us
+- type: TermsOfService
+  url: https://www.tagged.com/en/termsandconditions/
+- type: PrivacyPolicy
+  url: https://www.tagged.com/en/privacypolicy/
+- type: OnlineSafety
+  url: https://www.tagged.com/en/online-safety-code/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
