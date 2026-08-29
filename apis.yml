@@ -13,6 +13,17 @@ description: >-
   legacy REST-style API (tagged.com/api.php) that once powered third-party
   integrations has been retired. This profile is maintained in the API
   Evangelist network as a company record rather than an API producer.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
