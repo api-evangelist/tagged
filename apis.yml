@@ -56,6 +56,11 @@ tags:
 - Mobile App
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/meetme/
+  name: MeetMe
+  x-relationship: acquired
+  x-evidence: "Originally a standalone social network backed by early investors including Uncork Capital (formerly SoftTech VC), Tagged was acquired by MeetMe in 2017 for roughly 60 million dollars and today operates as a consumer brand within The Meet Gr"
 - type: DomainSecurity
   url: security/tagged-domain-security.yml
 - type: Website
