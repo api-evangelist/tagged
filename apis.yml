@@ -45,7 +45,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Social Network
@@ -56,6 +56,8 @@ tags:
 - Mobile App
 apis: []
 common:
+- url: https://www.tagged.com/en/press/
+  type: Blog
 - type: ParentCompany
   url: https://apis.io/providers/meetme/
   name: MeetMe
